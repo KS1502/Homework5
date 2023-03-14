@@ -1,5 +1,6 @@
 package Mathemathik;
 
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -20,6 +21,20 @@ public class Main {
         System.out.println();
 
         List<Mathe> mathe = List.of(circle, rectangle, square);
+       // mathe.add(0,circle);
+       // mathe.add(1,rectangle);
+        //mathe.add(2,square);
+
+        System.out.println(mathe);
+
+        /*Circle has area of 27
+
+Rectangle has area of 10
+
+Square has area of 49
+
+[0 0 0 0 0, 0 0 0 0 0, 0 0 0 0 0] */
+        }
 
     }
-}
+
